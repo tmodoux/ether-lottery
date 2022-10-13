@@ -1,0 +1,41 @@
+[
+    {
+        "component": "general",
+        "errorCode": "7359",
+        "formattedMessage": "TypeError: \"now\" has been deprecated. Use \"block.timestamp\" instead.\n  --> Contract.sol:19:52:\n   |\n19 |         return uint256(keccak256(block.difficulty, now, players));\n   |                                                    ^^^\n\n",
+        "message": "\"now\" has been deprecated. Use \"block.timestamp\" instead.",
+        "severity": "error",
+        "sourceLocation": {
+            "end": 441,
+            "file": "Contract.sol",
+            "start": 438
+        },
+        "type": "TypeError"
+    },
+    {
+        "component": "general",
+        "errorCode": "4323",
+        "formattedMessage": "TypeError: Wrong argument count for function call: 3 arguments given but expected 1. This function requires a single bytes argument. Use abi.encodePacked(...) to obtain the pre-0.5.0 behaviour or abi.encode(...) to use ABI encoding.\n  --> Contract.sol:19:24:\n   |\n19 |         return uint256(keccak256(block.difficulty, now, players));\n   |                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n\n",
+        "message": "Wrong argument count for function call: 3 arguments given but expected 1. This function requires a single bytes argument. Use abi.encodePacked(...) to obtain the pre-0.5.0 behaviour or abi.encode(...) to use ABI encoding.",
+        "severity": "error",
+        "sourceLocation": {
+            "end": 451,
+            "file": "Contract.sol",
+            "start": 410
+        },
+        "type": "TypeError"
+    },
+    {
+        "component": "general",
+        "errorCode": "3125",
+        "formattedMessage": "TypeError: Member \"balance\" not found or not visible after argument-dependent lookup in contract Contract. Use \"address(this).balance\" to access this address member.\n  --> Contract.sol:24:33:\n   |\n24 |         players[index].transfer(this.balance);\n   |                                 ^^^^^^^^^^^^\n\n",
+        "message": "Member \"balance\" not found or not visible after argument-dependent lookup in contract Contract. Use \"address(this).balance\" to access this address member.",
+        "severity": "error",
+        "sourceLocation": {
+            "end": 607,
+            "file": "Contract.sol",
+            "start": 595
+        },
+        "type": "TypeError"
+    }
+]
