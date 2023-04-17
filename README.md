@@ -4,6 +4,8 @@ A React lottery game to experiment with Web3 and Solidity smart contracts.
 
 The participants use their Metamask account to participate but no real money is involved since it uses an Ethereum Testnet blockchain.
 
+Try it here: https://tmodoux.github.io/ether-lottery
+
 ## Available Scripts
 
 In the project directory, you can run:
