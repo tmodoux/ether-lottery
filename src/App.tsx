@@ -60,7 +60,7 @@ const App = () => {
             <form onSubmit={onSubmit}>
                 <h4>Want to try your luck?</h4>
                 <div>
-                    Amount of ether to bet:
+                    <p>Amount of ether to bet:</p>
                     <input
                         value={value}
                         onChange={e => setValue(e.target.value)} />
